@@ -1,0 +1,22 @@
+{
+  "name": "adferras.github.io",
+  "version": "1.0.0",
+  "description": "This contains source code for website http://adferras.github.io.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adferras/adferras.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adferras/adferras.github.io/issues"
+  },
+  "homepage": "https://github.com/adferras/adferras.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

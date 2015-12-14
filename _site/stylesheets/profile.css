@@ -1,0 +1,47 @@
+body {
+  background: url('/images/IMG_2410.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #e6e6e6;
+  color: black;
+  width: 150px;
+  margin: 4px;
+}
+.col-md-3 {
+  padding-left: 47px;
+  text-align: center;
+}
+#contact {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+}
+
+#footer-contact {
+  width: 100%;
+}
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0.3);
+  height: auto;
+  color: white;
+}
+
+a {
+  color: #00cc00;
+}
+
+.navbar-fixed-top {
+  background-color: #e6e6e6;
+}
+
+.projects {
+  width: 150px;
+}
