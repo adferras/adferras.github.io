@@ -1,3 +1,9 @@
+a img {
+  border:none;
+  max-width:100%;
+  height: auto;
+  color: black;
+}
 body {
   background: url('/images/IMG_2410.jpg');
   -webkit-background-size: cover;
@@ -43,5 +49,5 @@ a {
 }
 
 .projects {
-  width: 150px;
+  width: 300px;
 }
