@@ -15,77 +15,80 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href='stylesheets/profile.css' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand disabled" href="https://twitter.com/ad_ferras">Adam Ferras</a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">About</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    </div>
-  </div>
-  <div id="about" class="jumbotron">
-    <h2>Software Engineer</h2>
-    <p>
-    I'm a <a class="link" href="http:class//www.freecodecamp.com/adferras"> self-taught</a> web
-    developer and software engineer based out of Denver, Colorado.  I currently work as a software engineer at 
-    <a href="https://www.articulate.com/">Articulate</a>.
-    </p>
-  </div>
-  <div id="portfolio" class="jumbotron">
-    <h2>Projects</h2>
-    <p>Here are some of the projects I've worked on</p>
+<body>
+  <div class="container">
     <div class="row">
-      <div class="col-md-6 projects">
-        <a href="http://adferras.github.io/pomodoro_timer/"><img src="/images/pomodoro.png" alt="preview pomodoro app"></a>
-        <div>
-          <p>A <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoro</a> timer written with <a href="https://angularjs.org/">Angular JS</a></p>
+      <div class="col-md-12">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand disabled" href="https://twitter.com/ad_ferras">Adam Ferras</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+    <div id="about" class="jumbotron">
+      <h2>Software Engineer</h2>
+      <p>
+      I'm a <a class="link" href="http:class//www.freecodecamp.com/adferras"> self-taught</a> web
+      developer and software engineer based out of Denver, Colorado.  I currently work as a software engineer at 
+      <a href="https://www.articulate.com/">Articulate</a>.
+      </p>
+    </div>
+    <div id="portfolio" class="jumbotron">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I've worked on</p>
+      <div class="row">
+        <div class="col-md-6 projects">
+          <a href="http://adferras.github.io/pomodoro_timer/"><img src="/images/pomodoro.png" alt="preview pomodoro app"></a>
+          <div>
+            <p>A <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">pomodoro</a> timer written with <a href="https://angularjs.org/">Angular JS</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="footer">
+      <h2 class="text-center">Connect with Adam Ferras</h2>
+      <div id="footer-contact" class="row">
+        <div class="col-md-3">
+          <a class="btn icon-twitter"
+             href="https://twitter.com/ad_ferras">  Twitter</a>
+        </div>
+        <div class="col-md-3">
+          <a class="btn icon-linkedin"
+             href="https://www.linkedin.com/in/adam-ferras-10491577">  LinkedIn</a>
+        </div>
+        <div class="col-md-3">
+          <a class="btn icon-github" href="https://github.com/adferras">
+            GitHub</a>
+        </div>
+        <div class="col-md-3">
+          <a class="btn icon-cloud"
+             href="http://www.freecodecamp.com/adferras">  Free Code Camp</a>
         </div>
       </div>
     </div>
   </div>
-
-  <div id="contact" class="footer">
-    <h2 class="text-center">Connect with Adam Ferras</h2>
-    <div id="footer-contact" class="row">
-      <div class="col-md-3">
-        <a class="btn icon-twitter"
-           href="https://twitter.com/ad_ferras">  Twitter</a>
-      </div>
-      <div class="col-md-3">
-        <a class="btn icon-linkedin"
-           href="https://www.linkedin.com/in/adam-ferras-10491577">  LinkedIn</a>
-      </div>
-      <div class="col-md-3">
-        <a class="btn icon-github" href="https://github.com/adferras">
-          GitHub</a>
-      </div>
-      <div class="col-md-3">
-        <a class="btn icon-cloud"
-           href="http://www.freecodecamp.com/adferras">  Free Code Camp</a>
-      </div>
-    </div>
-  </div>
-</div>
+</body>
