@@ -5,6 +5,8 @@ a img {
   max-width: 250px;
   max-height: 250px;
   color: black;
+  display: block;
+  margin: auto;
 }
 body {
   background: url('/images/IMG_2410.jpg');
@@ -22,7 +24,7 @@ body {
   width: 150px;
   margin: 4px;
 }
-.col-md-3 {
+.contacts {
   padding-left: 47px;
   text-align: center;
 }
@@ -50,6 +52,8 @@ a {
   background-color: #e6e6e6;
 }
 
-.projects {
-  width: 300px;
+.projects div {
+  display: block;
+  margin: auto;
+  width: 250px;
 }
